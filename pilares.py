@@ -150,3 +150,6 @@ def tentar(funcao, *args, **kwargs):
         return funcao(*args, **kwargs)
     except Exception as e:
         print(f"Erro ao executar {funcao.__name__}: {e}")
+
+        # Fim dos testes do atalho
+        
